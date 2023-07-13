@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.ourabah{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+#texte{
+    background-color: aqua;
+    width: 500px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-around;
+    border: 2px blue solid;
+    border-radius: 25px;
+    width: 250px;
+}
+#lecture{
+    width: 105px;
+    margin: 2%;
+
+}
+#chut{
+    width:105px
+
+}

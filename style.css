@@ -1,38 +1,7 @@
-#StatutJeu {
-    margin-top: 25px;
-    color: black;
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-transform: none;
   
-    padding: 10px 0;
-    text-align: center;
-    font-size: 20px;
-  }
-#Tableau1 {
-    margin-top: 25px;
-    color: rgb(1, 197, 30);
-  
-    padding: 10px 0;
-    text-align: center;
-    font-size: 20px;
-}
-
-
-
-#mohamed1 {
-  margin-top: 25px;
-  color: rgb(246, 234, 234);
-
-  padding: 10px 0;
-  text-align: center;
-  font-size: 20px;
-}
-#mohamed2 {
-  margin-top: 25px;
-  color: rgb(243, 4, 4);
-
-  padding: 10px 0;
-  text-align: center;
-  font-size: 20px;
-}
-.mh{
-  back
 }

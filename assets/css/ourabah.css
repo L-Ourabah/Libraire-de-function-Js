@@ -6,10 +6,12 @@
     
 }
 
-.body {
+body {
+    height: 100%;
     background-color: black;
 }
 .ourabah{
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -18,21 +20,42 @@
 
 }
 #texte{
-    background-color: aqua;
+    font-weight: bold;
+    background-color: rgb(254, 255, 255);
     width: 500px;
+    height: 250px;
+    font-size: 4rem;
+}
+
+@media (max-width:600px) {
+    #texte{
+        font-weight: bold;
+        background-color: rgb(254, 255, 255);
+        width: 300px;
+        height: 175px;
+        font-size: 2rem;
+    }
 }
 
 .btn{
     display: flex;
     justify-content: space-around;
-    border: 2px blue solid;
-    border-radius: 25px;
+   
     width: 250px;
 }
-#lecture{
+#lecture{ 
+    border: 2px rgb(222, 186, 8) solid;
+    border-radius: 25px;
     width: 105px;
     margin: 2%;
+    height: 25px;
+     font-size: 1em;
 
+}
+#lecture:hover{
+    background-color: black;
+    color:rgb(230, 0, 255);
+   
 }
 #chut{
     width:105px

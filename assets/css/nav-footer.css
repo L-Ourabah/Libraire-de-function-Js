@@ -5,6 +5,7 @@
     --bleu-tertiaire: #3884fc;
     --couleur-police: rgb(255, 255, 255);
   }
+
   nav {
     background: black;
        height: 80px;
@@ -118,3 +119,68 @@
          visibility: visible;
        }
      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* Styles pour le footer */
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+footer .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.footer-content {
+  margin-bottom: 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+/* Animation pour le fond du footer */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.footer-animation {
+  animation: gradient-animation 5s ease infinite;
+}
+

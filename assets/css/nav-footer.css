@@ -6,7 +6,7 @@
     --couleur-police: rgb(255, 255, 255);
   }
   nav {
-    background: var(--bleu-tertiaire);
+    background: black;
        height: 80px;
        width: 100%;
        display: flex;
@@ -32,7 +32,7 @@
      }
      
      nav ul li a {
-       color:var(--couleur-secondaire);
+       color:rgb(230, 0, 255);
        font-size: 17px;
        padding: 7px 13px;
        border-radius: 4px;
@@ -43,13 +43,15 @@
      
      nav ul li a.active1,
      nav ul li a:hover {
-       background-color: var(--couleur-principale);
+       background-color: rgba(150, 1, 250, 0.455);
+      
      }
      
      .checkbtn {
        
        font-size: 30px;
-       color: var(--couleur-police);
+       color: rgb(255, 221, 0);
+       color:rgb(230, 0, 255);
        float: right;
        line-height: 80px;
        margin-right: 40px;
@@ -86,7 +88,7 @@
          position: fixed;
          width: 100%;
          height: auto;
-         background: var(--bleu-tertiaire);
+         background: black;
          top: 78px;
          left: 0;
          text-align: center;
@@ -107,7 +109,7 @@
        nav ul li a:hover,
        nav ul li a.active1 {
          background: none;
-         color: var(--couleur-police);
+         color: rgb(255, 221, 0);
          z-index: 4;
        }
        #check:checked ~ ul {

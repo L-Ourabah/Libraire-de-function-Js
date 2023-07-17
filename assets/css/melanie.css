@@ -1,0 +1,41 @@
+#bodyMelanie {
+    /* background: var(--couleur-gris) ; */
+}
+
+#submitMelanie {
+    border: 1px solid rgba(150, 1, 250, 0.455);
+    background: transparent;
+    color: rgba(150, 1, 250, 0.455);
+    font-size: 1em;
+}
+
+#demoMelanie {
+    background-color: var(--couleur-police);
+    border: 1px solid rgba(150, 1, 250, 0.455);
+    background-color: transparent;
+    font-size: 1em;
+    text-align: center;
+}
+
+#inputBox {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+
+.demo {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#displayInput {
+    font-size: 2em;
+    height: 2em;
+}
+
+#functionResult {
+    font-size: 1.5em;
+    height: 2em;
+}

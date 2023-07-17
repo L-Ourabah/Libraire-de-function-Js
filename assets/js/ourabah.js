@@ -32,7 +32,7 @@ function OurabahEsque(chaine) {
   
   // Récupération des éléments du DOM
   let btnLecture = document.getElementById("lecture");
-  let btnMot = document.getElementById("mot");
+  let btnLtmot = document.getElementById("mot");
   let inputText = document.getElementById("texte");
   
   // Gestionnaire d'événement pour le bouton "Lecture"
@@ -58,14 +58,11 @@ function OurabahEsque(chaine) {
     // Lecture à voix haute du texte inversé
     speechSynthesis.speak(parole);
   
-    // Gestionnaire d'événement pour la fin de la lecture
-    parole.onend = function (event) {
-      // Code à exécuter après la fin de la lecture
-    };
+   
   };
   
-  // Gestionnaire d'événement pour le bouton "Chut"
-  btnMot.onclick = function () {
+  // Gestionnaire d'événement pour le bouton "liremot"
+  btnLtmot.onclick = function () {
     let texte = inputText.value;
     // Séparation du texte en mots en utilisant l'espace comme délimiteur
     let mots = texte.split(" ");
@@ -83,8 +80,9 @@ function OurabahEsque(chaine) {
     // Lecture à voix haute du tableau inversé
     speechSynthesis.speak(parole);
   
-    // Gestionnaire d'événement pour la fin de la lecture
-    parole.onend = function (event) {
-      // Code à exécuter après la fin de la lecture
-    };
+    
   };
+
+
+
+

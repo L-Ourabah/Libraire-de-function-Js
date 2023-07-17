@@ -1,10 +1,10 @@
 :root {
     --couleur-principale: #00b3ff;
-    --couleur-secondaire: #1c1a02;
-    --bleu-secondaire: #1c47d4;
-    --bleu-tertiaire: #3884fc;
+    --couleur-secondaire: rgb(230, 0, 255);
+    --bleu-secondaire: rgba(150, 1, 250, 0.455);
+    --bleu-tertiaire: rgb(255, 221, 0);
     --couleur-police: rgb(255, 255, 255);
-    --couleur-gris : #4c4c4c;
+    --couleur-black : #000000;
   }
 
   nav {
@@ -183,5 +183,8 @@ footer .container{
 
 .footer-animation {
   animation: gradient-animation 5s ease infinite;
+}
+footer p{
+  color: var(--couleur-police);
 }
 

@@ -210,24 +210,38 @@ document.getElementById('tableau2').innerText = 'Tableau inversé: ' + retourner
 /////////////////////////Methode 3
 
 
+// Définition de la fonction "Ourabesque3" prenant un mot en paramètre
 function Ourabesque3(mot) {
-    var nouveauMot = "";
-    var longueur = mot.length;
+  // Initialisation d'une variable "nouveauMot" qui contiendra le mot inversé
+  var nouveauMot = "";
 
-    for (var i = longueur - 1; i >= 0; i--) {
-        nouveauMot += mot[i];
-    }
+  // Récupération de la longueur du mot
+  var longueur = mot.length;
 
-    return nouveauMot;
+  // Boucle pour parcourir le mot de la fin vers le début
+  for (var i = longueur - 1; i >= 0; i--) {
+      // Ajout du caractère actuel (à l'index i) à la fin du "nouveauMot"
+      // Cela construit le mot inversé en ajoutant les caractères dans l'ordre inverse
+      nouveauMot += mot[i];
+  }
+
+  // Renvoie du mot inversé
+  return nouveauMot;
 }
 
+// Définition du mot d'origine "motOriginal"
 var motOriginal = "football";
 
-console.log(motOriginal); // Affiche le mot d'origine dans la console
+// Affiche le mot d'origine dans la console
+console.log(motOriginal);
 
+// Appel de la fonction "Ourabesque3" avec le mot d'origine "motOriginal"
+// Le résultat inversé sera stocké dans la variable "motInverse"
 var motInverse = Ourabesque3(motOriginal);
 
-console.log(motInverse); // Affiche le mot inversé dans la console
+// Affiche le mot inversé dans la console
+console.log(motInverse);
+
 
 
 

@@ -10,7 +10,7 @@ function melanieReverseArray(array) {
     let newArray = [];
 
     for (let i = (array.length -1); i >= 0; i--) {
-        newArray.push(array[i].trim());
+        newArray.push(array[i])
     }
     return newArray;
 }
@@ -95,3 +95,5 @@ buttonSubmit.onclick = () => {
     getInput.value = '';
     insertFtResult.innerText = getResult;
 }
+
+console.log(melanieReverse([true, "coucou", 18 ]));

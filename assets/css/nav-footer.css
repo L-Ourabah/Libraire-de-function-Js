@@ -184,7 +184,13 @@ footer .container{
 .footer-animation {
   animation: gradient-animation 5s ease infinite;
 }
-footer p{
+footer a{
+  text-decoration: none;
+  text-transform: none;
+  font-size: 2em;
   color: var(--couleur-police);
+  display: flex;
+  justify-content: space-around;
+
 }
 

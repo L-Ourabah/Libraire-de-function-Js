@@ -58,6 +58,17 @@ function melanieReverse(value) {
             else if (typeof value === "object") {
                 returnValue = melanieReverseArray(value);
             }
+            else if (typeof value === "number") {
+                if (value < 0) {
+                    returnValue = Math.abs(value);
+                }
+                else if (value > 0) {
+                    returnValue = value * (-1);
+                }
+                else {
+                    returnValue = 0;
+                }
+            }
         }
         return returnValue;
     }

@@ -1,9 +1,25 @@
+
+:root {
+  --couleur-principale: #00b3ff;
+  --text-h3: rgb(230, 0, 255);
+  --text-titre: rgba(150, 1, 250, 0.455);
+  --jaune: rgb(255, 221, 0);
+  --couleur-police: rgb(255, 255, 255);
+  --couleur-black : #000000;
+}
+
+
 *{
   margin: 0;
   padding: 0;
   text-decoration: none;
   text-transform: none;
   
+}
+
+
+body{
+  background-color: var(--couleur-black);
 }
 .titre{
   width: 100%;
@@ -14,3 +30,37 @@ video {
   max-width: 100%;
   height: auto;
 }
+
+.image {
+  display:flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+img{
+  height: 33%;
+  width: 80%;
+
+}
+
+h1{
+  text-align: center;
+  margin: 5%;
+  color:var(--bleu-secondaire) ;
+  font-size: 5em;
+
+}
+p{
+  text-align: center;
+  padding: 3%;
+  color: var(--jaune);
+  font-size: 2em;
+
+}
+h3{
+  font-size: 3em;
+
+  color: var(--text-h3);
+  text-align: center;
+}
+

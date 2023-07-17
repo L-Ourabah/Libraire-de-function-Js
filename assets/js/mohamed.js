@@ -5,17 +5,28 @@ const inverser = tableau => tableau.map((_, index) => tableau[tableau.length - 1
 var tableau = [ 1, 2, 3, 4, 5 ];
 var rev = inverser(tableau);
 console.log(rev);
+/*
+    Résultat: [ 5, 4, 3, 2, 1 ]
+*/
 
+/*2eme script*/
+function reverse(arr) {
+    var rev = new Array; // Déclare une variable "rev" et initialise un nouveau tableau vide.
+    for (var i = arr.length - 1; i >= 0; i--) {
+        rev.push(arr[i]); // Ajoute chaque élément du tableau "arr" à la fin du tableau "rev" dans l'ordre inverse.
+    }
+    return rev; // Retourne le tableau inversé.
+}
+
+var arr = [ 1, 2, 3, 4, 5 ]; // Déclare un tableau "arr" contenant les valeurs [1, 2, 3, 4, 5].
+var rev = reverse(arr); // Appelle la fonction "reverse" avec le tableau "arr" comme argument et assigne le résultat à la variable "rev".
+console.log(rev); // Affiche le contenu du tableau "rev" dans la console.
 /*
     Résultat: [ 5, 4, 3, 2, 1 ]
 */
 
 
-
-
-
-/*    2eme script
-
+/*    
 Ce script JavaScript est une fonction qui prend un tableau (array) en entrée et renvoie 
 un nouveau tableau qui contient les éléments du tableau d'origine dans l'ordre inverse.
 
@@ -39,19 +50,4 @@ et le résultat est stocké dans la variable rev.
 9.Finalement, le tableau inversé rev est affiché dans la console à l'aide de console.log.
 
 Ainsi, lorsque vous exécutez ce script, il affichera [5, 4, 3, 2, 1] dans la console, car les éléments du tableau arr ont été renversés.
-*/
-function reverse(arr) {
-    var rev = new Array;
-    for (var i = arr.length - 1; i >= 0; i--) {
-        rev.push(arr[i]);
-    }
-    return rev;
-}
- 
-var arr = [ 1, 2, 3, 4, 5 ];
-var rev = reverse(arr);
-console.log(rev);
- 
-/*
-    Résultat: [ 5, 4, 3, 2, 1 ]
 */

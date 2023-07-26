@@ -1,5 +1,3 @@
-
-
 // Déclaration de la fonction 'inverser' qui prend un paramètre 'tableau'
 const inverser = tableau => tableau.map((_, index) => tableau[tableau.length - 1 - index]);
 
@@ -7,7 +5,6 @@ const inverser = tableau => tableau.map((_, index) => tableau[tableau.length - 1
 var tableau = [1, 2, 3, 4, 5 ,6 ,'arrière'];
 
 var rev = inverser(tableau);
-
 console.log(rev);
 
 /*
